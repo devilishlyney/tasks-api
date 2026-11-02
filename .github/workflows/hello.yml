@@ -4,4 +4,4 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Branche ${{ github.ref_name }}"
+      - run: echo "Branche ${{ github.ref_name }}, par ${{ github.actor }}"
