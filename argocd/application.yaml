@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/devilishlyney/tasks-config.git
     targetRevision: main
-    path: k8s
+    path: config-repo/k8s
   destination:
     server: https://kubernetes.default.svc
     namespace: tasks
